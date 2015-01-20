@@ -1,7 +1,8 @@
 # solafs
 Audio Time Scale Modification via Synchronous OverLap-Add with Fixed Synthesis hop
 
-`usage: solafs.py [-h] [--scale SCALE] [--win WIN] [--hop HOP]
+```
+usage: solafs.py [-h] [--scale SCALE] [--win WIN] [--hop HOP]
                  [--max_shift MAX_SHIFT] [--shuffle SHUFFLE]
                  [--max_duration MAX_DURATION]
                  input output
@@ -22,4 +23,4 @@ optional arguments:
   --shuffle SHUFFLE     SD of time over which to shuffle frames.
   --max_duration MAX_DURATION
                         Truncate input at this duration.
-`
+```
